@@ -14,4 +14,11 @@ window.onload = function(){
     moviesListTitulo.style.backgroundColor = 'teal';
     moviesListTitulo.style.padding = '20px';
 
+
+    const logo = document.querySelector('.logoDH img')
+
+    logo.addEventListener('mouseover',function(e){
+        body.style.backgroundColor = '#7f7f7f'
+        body.classList.add('fondoMoviesList');
+    })
 }
